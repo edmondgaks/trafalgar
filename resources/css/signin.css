@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Lato','Arial','sans-serif';
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.rounded {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    background-color: #5956e9;
+}
+
+.logo-name {
+    margin-top: -2.5%;
+    margin-left: 5%;    
+}
+.logo-place {
+    padding-right: 3%;
+    padding-top: 2%;
+}
+.contact {
+    margin-bottom: 0%;
+    margin-left: 30%;
+    border-radius: 5px;
+    width: 40%;
+    background-color: #ffffff;
+    padding: 2%; 
+    box-shadow: 0 1px 1px #a19f9f;
+}
+/*--------------------------------*/
+/*--------SECTION-SIGNUP----------*/
+/*---------------------------------*/
+
+
+/*--------------------------------*/
+/*--------SECTION-SIGNUP----------*/
+/*---------------------------------*/
+.section-signup {
+    margin-top: 2%;
+    text-align: center;
+    box-shadow: 0 2px 2px #5a5252;
+    height: 87.2vh;
+    
+    
+}
+.welcome-box p {
+    background-color: #DEEEFE;
+    padding-right: 20%;
+    margin-left: -40%;
+}
+
+.section-signup .profile-avatar {
+    transform: translate(-50px,80%);
+    background-color: transparent;
+}
+.login-image {
+    background-color: #DEEEFE;
+}
+
+
+.welcome-box:first-child {
+    font-size: 80%;
+    color: #5956e9;
+    background-color: transparent;
+}
+
+.another-welcome {
+    background-color: #DEEEFE;
+}
+.contact-form {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 1%;
+    border-radius: 5px;
+    width: 40%;
+    
+}
+.contact-form .username {
+    margin-right: 25%;
+    padding-right: 60%;
+    font-size: 85%;
+    opacity: 80%;
+    margin-bottom: 5%;
+
+}
+.contact-form .placeholder {
+    opacity: 80%;
+    padding-right: 60%;
+    font-size: 90%;
+    margin-bottom: 5%;
+    width: 250%;
+    height: 40px;
+}
+.contact-form .password {
+    margin-right: 25%;
+    font-size: 85%;
+    padding-right: 30%;
+    opacity: 80%;
+}
+.contact-form .checkbox {
+    padding-right: 30%;
+    margin-left: -18%;
+    margin-top: 8%;
+}
+
+.btn-log {
+    border-radius: 5px;
+    padding: 8px 50px;
+    background-color: #5956e9;
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 8%;
+    border: 2px solid #5956e9;
+}
+
+.check-box span {
+    opacity: 60%;
+}
+
+.contact-form .forgot-password {
+    text-decoration: none;
+    font-size: 90%;
+    opacity: 95%;
+    color: #443e3e;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+
+}
+
+.contact-form .log-in {
+    width: 240%;
+    margin-bottom: 10%;
+}
+
+
+.div-account {
+    font-size: 80%;
+}
+.sign-fornow {
+    color: #5956e9;
+}
+.forgot-password {
+    opacity: 90%;
+    padding-left: 0%;
+    margin-left: 40%;
+}
+.div-account p {
+    opacity: 90%;
+}
+
+.section-signup .end {
+    margin-bottom: 2%;
+}
+.forgot-password p {
+    font-size: 95%;
+}
