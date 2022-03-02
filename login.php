@@ -27,6 +27,6 @@ if(!$connection) {
         echo "DATA added Successfully";
     }
 }
-}
+
 
 ?>
