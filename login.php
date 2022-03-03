@@ -5,8 +5,9 @@ if(isset($_POST['submit'])) {
 
 $username = $_POST['username'];
 $password = $_POST['password'];
+$remember = $_POST['remember'];
  
-if(($username="") || ($password="")) {
+if(($username=="") || ($password=="")) {
     echo "Please provide your password or username";
 }
 else {
@@ -23,7 +24,7 @@ else {
 if(!$connection) {
     echo "Connection error";
 } else {
-    $insertQuery= "INSERT INTO trafa_users(username,password) values('$username','$encrypt')";
+    $insertQuery= "INSERT INTO trafa_users(username,password,remember) values('$username','$encrypt','$remember')";
     $insert = mysqli_query($connection,$insertQuery) or die("Error occured".mysqli_error($connection));
     if($insert) {
         echo "DATA added Successfully";
