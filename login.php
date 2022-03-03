@@ -1,10 +1,12 @@
 <?php
 
+if(isset($_POST['submit'])) {
+
 
 $username = $_POST['username'];
 $password = $_POST['password'];
  
-if(($username="") || ($pass="")) {
+if(($username="") || ($password="")) {
     echo "Please provide your password or username";
 }
 else {
@@ -26,6 +28,7 @@ if(!$connection) {
     if($insert) {
         echo "DATA added Successfully";
     }
+}
 }
 
 
