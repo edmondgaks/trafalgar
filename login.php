@@ -1,13 +1,21 @@
 <?php
 
+<<<<<<< HEAD
 if(isset($_POST['submit'])) {
+=======
+if(isset($_POST['formsubmit'])) {
+>>>>>>> 2f19935e28f80bd099ead3f1abfc32fe78c3410c
 
 
 $username = $_POST['username'];
 $password = $_POST['password'];
 $remember = $_POST['remember'];
  
+<<<<<<< HEAD
 if(($username=="") || ($password=="")) {
+=======
+if(($username="") || ($password="")) {
+>>>>>>> 2f19935e28f80bd099ead3f1abfc32fe78c3410c
     echo "Please provide your password or username";
 }
 else {
