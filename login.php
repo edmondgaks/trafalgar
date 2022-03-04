@@ -4,7 +4,6 @@
 if(isset($_POST['formsubmit'])) {
 
 
-
 $username = $_POST['username'];
 $password = $_POST['password'];
 $remember = $_POST['remember'];
